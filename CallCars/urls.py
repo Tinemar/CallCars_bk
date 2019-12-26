@@ -19,5 +19,5 @@ from django.conf.urls import url,include
 from call.urls import urlpatterns as call_urlpatterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^orders/',include(call_urlpatterns))
+    url(r'^api/',include(call_urlpatterns))
 ]

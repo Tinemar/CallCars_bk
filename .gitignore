@@ -1,2 +1,4 @@
 CallCars/settings.py
-
+.vscode
+CallCars/__pycache__
+call/__pycache__
